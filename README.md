@@ -9,37 +9,85 @@
 - 可视化展示关键指标，辅助经营决策
 
 ## 核心功能
-- 销售转化漏斗分析
-- 各维修部位成交差异分析
-- 报价金额与成交关系分析
-- 销售员表现热力图
-- 低效销售/部位识别
-- 响应时间与流失原因分析（可扩展）
+系统提供7个维度的分析模块：
+
+1. **销售转化漏斗**
+   - 全层级转化环节显示
+   - 漏斗图直观展示各阶段转化情况
+
+2. **维修部位分析**
+   - 各部位成交差异分析
+   - 转化率和平均报价对比
+
+3. **销售员表现**
+   - 销售员整体表现分析
+   - 转化率、平均报价、响应时间
+
+4. **报价分析**
+   - 报价金额与成交关系
+   - 散点图展示相关性
+
+5. **销售员维修部位**
+   - 销售员在各维修部位的转化率
+   - 热力图直观展示表现差异
+
+6. **销售员排名**
+   - 转化率较低者排名
+   - 识别需要改进的销售员
+
+7. **部位成交分析**
+   - 维修部位成交率 vs 线索占比
+   - 发现薄弱环节
 
 ## 技术栈
-- Python + Pandas/SQL：数据处理
+- Python + Pandas：数据处理与分析
 - Streamlit + Plotly：可视化前端
 - Streamlit Cloud/公司服务器：部署
 
-## 快速上手
-1. 安装依赖：`pip install -r requirements.txt`
-2. 运行应用：`streamlit run app.py`
-3. 导入数据，选择分析模块
+## 快速开始
+
+### 环境要求
+- Python 3.8+
+- pip
+
+### 安装步骤
+1. 克隆仓库
+```bash
+git clone https://github.com/franksunye/ConvertIQ.git
+cd ConvertIQ
+```
+
+2. 安装依赖
+```bash
+pip install -r requirements.txt
+```
+
+3. 运行应用
+```bash
+streamlit run app.py
+```
+
+### 数据要求
+- leads.csv：包含线索基本信息
+- lead_followup.csv：包含跟进和成交信息
+
+## 使用说明
+1. 在左侧上传数据文件，或使用示例数据
+2. 通过不同标签页查看各类分析
+3. 点击图表可进行交互（放大、下载等）
 
 ## 文档
-- [Backlog](docs/00_BACKLOG.md)
-- [Changelog](docs/01_CHANGELOG.md)
-- [Architecture](docs/10_ARCHITECTURE.md)
-- [API](docs/20_API.md)
-- [Development Guide](docs/30_DEVELOPMENT.md)
-- [Testing Guide](docs/31_TESTING.md)
-- [User Guide](docs/40_USER_GUIDE.md)
+- [架构设计](docs/10_ARCHITECTURE.md)
+- [开发指南](docs/30_DEVELOPMENT.md)
+- [测试指南](docs/31_TESTING.md)
+- [用户指南](docs/40_USER_GUIDE.md)
+- [变更日志](docs/01_CHANGELOG.md)
 
 ## 贡献
 欢迎通过issue或PR提出建议和改进。
 
-## License
-[License information to be added]
+## 许可证
+[待定]
 
 ## 联系方式
-[Contact information to be added] 
+[待定] 
