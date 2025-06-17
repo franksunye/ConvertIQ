@@ -76,6 +76,22 @@ streamlit run app.py
 2. 通过不同标签页查看各类分析
 3. 点击图表可进行交互（放大、下载等）
 
+## 部署说明
+
+### Streamlit Cloud 部署
+1. 访问 [Streamlit Cloud](https://streamlit.io/cloud)
+2. 使用 GitHub 账号登录
+3. 点击 "New app"
+4. 选择本仓库
+5. 选择 main 分支
+6. 设置主文件路径为 `app.py`
+7. 点击 "Deploy"
+
+### 本地部署
+1. 确保已安装所有依赖
+2. 运行 `streamlit run app.py`
+3. 访问 `http://localhost:8501`
+
 ## 文档
 - [架构设计](docs/10_ARCHITECTURE.md)
 - [开发指南](docs/30_DEVELOPMENT.md)
