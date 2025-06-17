@@ -1,4 +1,2 @@
-# 如果需要系统级依赖，可以在这里添加
-# 例如：
 libgomp1
-libgl1-mesa-glx 
+libgl1-mesa-glx
