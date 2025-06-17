@@ -10,29 +10,59 @@
 ## Test Types
 
 ### Unit Tests
-- 数据清洗、指标计算函数的单元测试
+- 数据加载和清洗测试
+  - CSV文件导入
+  - DataFrame直接传入
+  - 时间字段转换
+- 指标计算测试
+  - 销售漏斗转化率计算
+  - 维修部位转化率计算
+  - 销售员表现指标计算
+  - 报价分析计算
+- 可视化测试
+  - 漏斗图生成
+  - 柱状图和折线图生成
+  - 热力图生成
+  - 散点图生成
 
 ### Integration Tests
-- 数据流全流程测试（从导入到可视化）
-
-### End-to-End Tests
-- 主要流程的端到端测试，确保用户操作无误
+- 数据流全流程测试
+  - 数据加载到指标计算
+  - 指标计算到可视化
+  - 界面交互测试
 
 ## Test Environment
-- 推荐使用pytest
-- 可用mock数据进行测试
+- 使用pytest框架
+- 使用模拟数据进行测试
+- 测试数据包含各种场景和边界情况
 
 ## Running Tests
 ```bash
-pytest
+# 运行所有测试
+python -m pytest tests/ -v
+
+# 运行特定测试文件
+python -m pytest tests/test_data_processor.py -v
+python -m pytest tests/test_visualizer.py -v
 ```
 
 ## Test Coverage
-- 重点覆盖数据处理、指标计算、可视化输出
+- 数据处理函数覆盖率
+- 指标计算函数覆盖率
+- 可视化函数覆盖率
+- 错误处理覆盖率
+
+## Test Data
+- 使用模拟数据覆盖各种场景
+- 包含正常数据和异常数据
+- 数据格式符合实际使用场景
 
 ## Continuous Integration
 - 可集成GitHub Actions等自动化测试
+- 每次提交自动运行测试
+- 测试失败阻止合并
 
 ## Notes
 - 保持测试用例简单明了，覆盖核心业务流程
-- 每次迭代需补充新功能的测试 
+- 每次迭代需补充新功能的测试
+- 定期更新测试数据以覆盖新场景 
