@@ -1,29 +1,34 @@
 # Project Backlog
 
 ## Overview
-This document tracks planned features, improvements, and bug fixes for the project. We follow Agile development principles and KISS (Keep It Simple, Stupid) principle to ensure efficient and maintainable development.
+本项目为防水维修平台销售转化率分析系统，旨在通过数据分析和可视化，帮助企业定位销售转化率下降的原因，优化销售流程。我们坚持敏捷开发和KISS原则，持续迭代、快速交付。
 
 ## Development Principles
-- **Agile Development**: We prioritize working software over comprehensive documentation
-- **KISS Principle**: We keep features and implementations as simple as possible
-- **Incremental Delivery**: We deliver small, working features frequently
-- **Continuous Feedback**: We regularly review and adjust our priorities
+- **Agile Development**: 持续交付、快速反馈、拥抱变化
+- **KISS Principle**: 只做必要的功能，保持实现简单
 
 ## Current Sprint
-- [ ] Initial project setup
-- [ ] Core functionality implementation
-- [ ] Basic testing framework
+- [ ] 数据表结构设计（leads, lead_followup）
+- [ ] 核心指标梳理与计算逻辑实现
+- [ ] 销售转化漏斗可视化（漏斗图）
+- [ ] 各部位成交差异可视化（堆叠条形图/点图）
+- [ ] 报价金额 vs 成交分析（散点图/箱型图）
+- [ ] 销售员绿色分布（热力图）
+- [ ] 低效销售与部位分析（数字卡/排名表/比率图）
+- [ ] 快速使用指南文档
 
 ## Future Sprints
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Performance improvements
+- [ ] 首次响应时间 vs 成交率分析
+- [ ] 线索流失原因分布分析
+- [ ] 数据导入导出功能
+- [ ] 多维度自定义筛选与分析
+- [ ] 用户权限与多角色支持
+- [ ] 移动端适配
 
 ## Completed
-- [x] Project initialization
+- [x] 项目初始化与文档结构搭建
 
 ## Notes
-- This backlog will be updated regularly as new requirements are identified
-- Items will be moved between sections as they are planned, in progress, or completed
-- We maintain a simple, clear structure to avoid complexity
-- Each sprint focuses on delivering the most valuable features first 
+- 需求和功能会根据实际反馈持续调整
+- 每次迭代优先交付最有价值的分析模块
+- 保持文档和代码的简洁、易维护 

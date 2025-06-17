@@ -1,41 +1,44 @@
 # User Guide
 
 ## Our Approach
-We follow Agile development principles and KISS philosophy to provide:
-- Simple, intuitive user experience
-- Clear, concise documentation
-- Regular updates based on user feedback
-- Focus on essential features
-- Easy-to-understand instructions
+我们坚持敏捷开发和KISS原则，致力于为用户提供简单高效的销售转化率分析工具。
+
+## 快速使用指南：如何定位转化率下降原因
+
+### 步骤 1：查看销售转化漏斗图
+- 观察各阶段转化率，定位下降环节
+- 可对比历史数据，发现新问题
+
+### 步骤 2：按销售人员维度比对
+- 使用【销售员绿色分布】热力图
+- 查找低效销售，分析表现差异
+
+### 步骤 3：查看维修部位维度
+- 使用【各部位成交差异】图表
+- 识别转化率下降的维修类型
+
+### 步骤 4：分析报价金额影响
+- 使用【报价金额 vs 成交】图表
+- 判断高报价是否影响成交
+
+### 步骤 5：扩展分析建议
+- 响应时间与流失原因分析
+
+## 各可视化模块说明
+- **销售转化漏斗**：展示线索到成交的全流程转化
+- **各部位成交差异**：对比不同维修部位的成交效率
+- **报价金额 vs 成交**：分析报价与成交的关系
+- **销售员绿色分布**：热力图显示各销售在不同部位的转化率
+- **低效销售/部位分析**：数字卡/排名表/比率图，定位问题环节
 
 ## Introduction
-[To be documented as product features are developed]
+本系统帮助企业高效分析销售转化流程，定位问题，优化策略。
 
 ## Getting Started
-
-### Installation
-[To be documented as installation process is established]
-
-### Configuration
-[To be documented as configuration options are implemented]
-
-## Features
-[To be documented as features are developed]
-
-## Common Tasks
-[To be documented as common use cases are identified]
-
-## Troubleshooting
-[To be documented as common issues are identified]
-
-## FAQ
-[To be documented as frequently asked questions are collected]
-
-## Support
-[To be documented as support channels are established]
+- 安装依赖，运行 Streamlit 应用
+- 导入线索和跟进数据
+- 进入主页面，选择分析维度和模块
 
 ## Notes
-- This document will be updated as new features are added
-- User feedback will be incorporated to improve this guide
-- We keep documentation simple and user-friendly
-- Regular updates ensure documentation stays relevant 
+- 文档和界面保持简洁，便于理解和操作
+- 用户反馈将持续优化产品体验 
